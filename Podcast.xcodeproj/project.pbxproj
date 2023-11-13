@@ -14,6 +14,7 @@
 		8801B84D2B02D0BF005EBA62 /* PodcastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801B84C2B02D0BF005EBA62 /* PodcastTests.swift */; };
 		8801B8572B02D0BF005EBA62 /* PodcastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801B8562B02D0BF005EBA62 /* PodcastUITests.swift */; };
 		8801B8592B02D0BF005EBA62 /* PodcastUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801B8582B02D0BF005EBA62 /* PodcastUITestsLaunchTests.swift */; };
+		8801B8662B02D120005EBA62 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801B8652B02D120005EBA62 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8801B8522B02D0BF005EBA62 /* PodcastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodcastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8801B8562B02D0BF005EBA62 /* PodcastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastUITests.swift; sourceTree = "<group>"; };
 		8801B8582B02D0BF005EBA62 /* PodcastUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8801B8652B02D120005EBA62 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				8801B83B2B02D0BD005EBA62 /* PodcastApp.swift */,
 				8801B83D2B02D0BD005EBA62 /* ContentView.swift */,
+				8801B8652B02D120005EBA62 /* MainView.swift */,
 				8801B83F2B02D0BF005EBA62 /* Assets.xcassets */,
 				8801B8412B02D0BF005EBA62 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8801B83E2B02D0BD005EBA62 /* ContentView.swift in Sources */,
+				8801B8662B02D120005EBA62 /* MainView.swift in Sources */,
 				8801B83C2B02D0BD005EBA62 /* PodcastApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

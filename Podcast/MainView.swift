@@ -9,7 +9,52 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack {
+            //
+            HStack {
+                Circle()
+                    .frame(width: 50)
+                    .foregroundColor(.indigo)
+                    .overlay(
+                        Image(systemName: "mic")
+                            .foregroundColor(.white)
+                    )
+                Text("Podcast")
+                    .font(.title3)
+                    .bold()
+                
+                Spacer()
+                
+                Button {
+                    //
+                } label: {
+                    Circle()
+                        .frame(width: 50)
+                        .foregroundColor(Color(red: 220/255, green: 220/255, blue: 220/255))
+                        .overlay(
+                            Image(systemName: "magnifyingglass")
+                                .foregroundColor(.black)
+                                .font(.title2)
+                        )
+                }
+                
+                Button {
+                    //
+                } label: {
+                    Circle()
+                        .frame(width: 50)
+                        .foregroundColor(Color(red: 220/255, green: 220/255, blue: 220/255))
+                        .overlay(
+                            Image(systemName: "bell.badge")
+                                .foregroundColor(.black)
+                                .font(.title2)
+                        )
+                }
+            }
+        }
+        .padding()
+        
     }
 }
 
