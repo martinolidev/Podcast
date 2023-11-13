@@ -28,6 +28,17 @@ struct History: View {
         RoundedRectangle(cornerRadius: 25.0)
             .foregroundColor(Color(red: 220/255, green: 220/255, blue: 220/255))
             .frame(height: 150)
+            .overlay(
+                HStack {
+                    Image("ep1")
+                        .resizable()
+                        .scaledToFit()
+                    
+                    VStack {
+                        
+                    }
+                }
+            )
     }
 }
 
