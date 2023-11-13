@@ -9,6 +9,8 @@ import SwiftUI
 
 
 struct CategoriesButtons: View {
+    @Environment(\.colorScheme) var colorScheme
+    
     var body: some View {
         VStack {
             HStack {
@@ -92,6 +94,7 @@ struct CategoriesButtons: View {
             }
         }
         .padding(.top)
+        .foregroundColor(colorScheme == .dark ? .white : .black)
     }
 }
 
