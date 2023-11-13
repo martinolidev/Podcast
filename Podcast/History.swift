@@ -26,16 +26,30 @@ struct History: View {
         .padding(.top)
         
         RoundedRectangle(cornerRadius: 25.0)
-            .foregroundColor(Color(red: 220/255, green: 220/255, blue: 220/255))
+            .foregroundColor(.clear)
             .frame(height: 150)
             .overlay(
                 HStack {
                     Image("ep1")
                         .resizable()
                         .scaledToFit()
+                        .cornerRadius(25)
                     
-                    VStack {
+                    Spacer()
+                    
+                    VStack(alignment: .leading) {
+                        Text("EP : 321 | The Ultimate \nFahsion Playground")
+                            .bold()
                         
+                        Text("Max Podcasterson")
+                            .bold()
+                            .font(.system(size: 15))
+                            .padding(.top)
+                        HStack {
+                            ProgressView(value: 0.8)
+                                .progressViewStyle(LinearProgressViewStyle(tint: .indigo))
+                            Text("80%")
+                        }
                     }
                 }
             )
