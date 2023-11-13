@@ -19,54 +19,6 @@ struct MainView: View {
     }
 }
 
-//I still don't know if this is a good idea :D
-struct TopBar: View {
-    var body: some View {
-        // top bar
-        HStack {
-            Circle()
-                .frame(width: 50)
-                .foregroundColor(.indigo)
-                .overlay(
-                    Image(systemName: "mic")
-                        .foregroundColor(.white)
-                )
-            Text("Podcast")
-                .font(.title3)
-                .bold()
-            
-            Spacer()
-            
-            Button {
-                //
-            } label: {
-                Circle()
-                    .frame(width: 50)
-                    .foregroundColor(Color(red: 220/255, green: 220/255, blue: 220/255))
-                    .overlay(
-                        Image(systemName: "magnifyingglass")
-                            .foregroundColor(.black)
-                            .font(.title2)
-                    )
-            }
-            
-            Button {
-                //
-            } label: {
-                Circle()
-                    .frame(width: 50)
-                    .foregroundColor(Color(red: 220/255, green: 220/255, blue: 220/255))
-                    .overlay(
-                        Image(systemName: "bell.badge")
-                            .foregroundColor(.black)
-                            .font(.title2)
-                    )
-            }
-        }
-
-    }
-}
-
 struct HorizontalCard: View {
     var body: some View {
         RoundedRectangle(cornerRadius: 25.0)
