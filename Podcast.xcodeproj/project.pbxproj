@@ -17,6 +17,7 @@
 		8801B8662B02D120005EBA62 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801B8652B02D120005EBA62 /* MainView.swift */; };
 		8801B8682B02E084005EBA62 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801B8672B02E084005EBA62 /* TopBar.swift */; };
 		8801B86A2B02E0DD005EBA62 /* HorizontalCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801B8692B02E0DD005EBA62 /* HorizontalCard.swift */; };
+		8801B86C2B02E13D005EBA62 /* CategoriesButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801B86B2B02E13D005EBA62 /* CategoriesButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		8801B8652B02D120005EBA62 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		8801B8672B02E084005EBA62 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
 		8801B8692B02E0DD005EBA62 /* HorizontalCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCard.swift; sourceTree = "<group>"; };
+		8801B86B2B02E13D005EBA62 /* CategoriesButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				8801B83B2B02D0BD005EBA62 /* PodcastApp.swift */,
 				8801B83D2B02D0BD005EBA62 /* ContentView.swift */,
 				8801B8652B02D120005EBA62 /* MainView.swift */,
+				8801B86B2B02E13D005EBA62 /* CategoriesButtons.swift */,
 				8801B8692B02E0DD005EBA62 /* HorizontalCard.swift */,
 				8801B8672B02E084005EBA62 /* TopBar.swift */,
 				8801B83F2B02D0BF005EBA62 /* Assets.xcassets */,
@@ -271,6 +274,7 @@
 				8801B86A2B02E0DD005EBA62 /* HorizontalCard.swift in Sources */,
 				8801B83C2B02D0BD005EBA62 /* PodcastApp.swift in Sources */,
 				8801B8682B02E084005EBA62 /* TopBar.swift in Sources */,
+				8801B86C2B02E13D005EBA62 /* CategoriesButtons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
