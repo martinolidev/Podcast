@@ -38,7 +38,6 @@ struct CategoriesButtons: View {
                                     .foregroundColor(.indigo)
                             )
                         Text("Gaming")
-                            .foregroundColor(.black)
                             .bold()
                     }
                 }
@@ -55,7 +54,6 @@ struct CategoriesButtons: View {
                                     .foregroundColor(.indigo)
                             )
                         Text("Art")
-                            .foregroundColor(.black)
                             .bold()
                     }
                 }
@@ -72,7 +70,6 @@ struct CategoriesButtons: View {
                                     .foregroundColor(.indigo)
                             )
                         Text("Fashion")
-                            .foregroundColor(.black)
                             .bold()
                     }
                 }
@@ -89,7 +86,6 @@ struct CategoriesButtons: View {
                                     .foregroundColor(.indigo)
                             )
                         Text("Travel")
-                            .foregroundColor(.black)
                             .bold()
                     }
                 }
