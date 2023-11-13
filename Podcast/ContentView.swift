@@ -9,7 +9,44 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        MainView()
+        TabView {
+            MainView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "house")
+                        Text("Home")
+                    }
+                }
+            MainView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "magnifyingglass")
+                        Text("Discover")
+                    }
+                }
+            MainView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "icloud.and.arrow.down")
+                        Text("Download")
+                    }
+                }
+            MainView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "books.vertical.fill")
+                        Text("Library")
+                    }
+                }
+            MainView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "person")
+                        Text("Profile")
+                    }
+                }
+            
+        }.accentColor(.indigo)
     }
 }
 
