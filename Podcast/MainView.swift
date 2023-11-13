@@ -14,6 +14,7 @@ struct MainView: View {
             HorizontalCard()
             CategoriesButtons()
             History()
+            Recommended()
         }
         .padding()
         
