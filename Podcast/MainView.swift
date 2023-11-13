@@ -13,8 +13,12 @@ struct MainView: View {
             TopBar()
             HorizontalCard()
             CategoriesButtons()
-            History()
-            Recommended()
+            
+            ScrollView {
+                History()
+                Recommended()
+            }
+           
         }
         .padding()
         
