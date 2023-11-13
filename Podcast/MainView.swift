@@ -13,6 +13,7 @@ struct MainView: View {
             TopBar()
             HorizontalCard()
             CategoriesButtons()
+            History()
         }
         .padding()
         
